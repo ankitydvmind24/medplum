@@ -11,6 +11,7 @@ on:
 jobs:
   emit-deployment:
     runs-on: ubuntu-latest
+
     steps:
       - name: Create GitHub Deployment
         id: create_deployment
@@ -18,8 +19,8 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref:   ${{ github.sha }}
-          # if we're on main, call it "production", otherwise the branch name
-          environment: ${{ github.ref == 'refs/heads/main' && 'production' || github.ref_name }}
+          # Let .jira/config.yml map this branch name to the right bucket
+          environment: ${{ github.ref_name }}
 
       - name: Mark Deployment Successful
         uses: chrnorm/deployment-status@releases/v1
