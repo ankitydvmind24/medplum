@@ -18,13 +18,8 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref:   ${{ github.sha }}
-          environment: ${{ 
-            github.ref_name == 'main'     && 'production'  ||
-            github.ref_name == 'dev'      && 'development' ||
-            github.ref_name == 'qa'       && 'testing'     ||
-            github.ref_name == 'staging'  && 'staging'     ||
-            github.ref_name
-          }}
+          environment: ${{ github.ref_name == 'main' && 'production' || github.ref_name == 'dev' && 'development' || github.ref_name == 'qa' && 'testing' || github.ref_name == 'staging' && 'staging' || github.ref_name }}
+
 
       - name: Mark Deployment Successful
         uses: chrnorm/deployment-status@releases/v1
