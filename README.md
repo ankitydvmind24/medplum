@@ -22,7 +22,7 @@ rrr- **UI Component Library** - React components designed to help you quickly de
 eweweweewewrwe
 ## Contributing
 wefwefwefw
-**We heartily welcome any and all contwedfwefrrereibutions that match our engineering standards!**
+**We heartily welcome any and all contwedfweferfrefrrereibutions that match our engineering standards!**
 weewew
 That being said, this codebase isn't your typical open-source project because it's not a library or package with a
 limited scope -- it's our entire product. Our [Contributing documentation](https://medplum.com/docs/contributing) has
