@@ -20,7 +20,7 @@ rrr- **UI Component Library** - React components designed to help you quickly de
     - [Technologies](#technologies)
     - [Folder Structure](#folder-structure)
 eweweweewewrwe
-## Contributing
+## Contributingere
 wefwefwefw
 **We heartily welcome any and all contwedfweferfrefrrereibutions that match our engineering standards!**
 weewew
