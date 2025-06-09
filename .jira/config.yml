@@ -1,25 +1,16 @@
+# .jira/config.yml
 deployments:
   environmentMapping:
     development:
-      - "dev*"
       - "dev"
-      - "Entwicklung"
-      - "desenvolvimento"
-      - "дев"
+      - "dev*"
     testing:
-      - "testes"
       - "qa"
       - "qa*"
-      - "Test"
-      - "TST-*"
-      - "тест"
     staging:
-      - "Pre-Prod"
-      - "STG-*"
       - "staging"
       - "staging*"
     production:
-      - "Produktion"
-      - "produção"
-      - "продакшн"
-      - "PROD-*"
+      - "main"       
+      - "prod"
+      - "prod-*"
