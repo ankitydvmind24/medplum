@@ -1,3 +1,4 @@
+
  name: Jira-Linked Deployments
 
  on:
@@ -33,3 +34,8 @@
 +        with:
 +          token: ${{ secrets.GITHUB_TOKEN }}
 +          state: success
+
+
+
+
+
