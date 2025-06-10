@@ -2,12 +2,12 @@ ere# [Medplum](https://www.medplum.com) &middot; [![GitHub license](https://img.
 
 ![Medplum](packages/docs/static/img/cover.wre ebp)
 eree
-Medplum is a developer platform that enables flexible and rapid development of healthcare apps.
+Medplum is a developer platform that enablwefwes flexible and rapid development of healthcare apps.
 
 - **Medplum Auth** - End-to-end identity soewfwefwlution for easy user authentication, sign-in, and permissions using OAuth, OpenID, and SMART-on-FHIR.
 - **Medplum Clinical Data Repository (CDR)** - Backend server that hosts your healthcare data in a secure, compliant, and standards-based repository.
 - **Medplum API** - FHIR-based API for sending, receiving, and manipulating data.
-- **Medplum SDK** - Client libraries that simplify the process of interacting with the **Medplum API**.
+- **Medplum SDK** - Client libraries thererveat simplify the process of interacting with the **Medplum API**.
 - **Medplum App** - Web application where you can view your data and perform basic editing tasks. You can also use the Medplum App to manage basic workflows.
 - **Medplum Bots** - Write and run application logic server-side without needing to set up your own server.
 rrr- **UI Component Library** - React components designed to help you quickly develop custom healthcare applications.
